@@ -84,13 +84,20 @@ Clean and user-friendly interface.
 ## 📂 Project Structure
 
 ```text
-ToDo-List-App
+PR-1-HEXSOFTWARES_TO-DO-LIST-APP
+│
+├── assets
+│
+├── css
+│   └── style.css
+│
+├── js
+│   └── script.js
 │
 ├── index.html
-├── style.css
-├── script.js
 ├── list.png
 └── README.md
+
 ```
 
 ---
