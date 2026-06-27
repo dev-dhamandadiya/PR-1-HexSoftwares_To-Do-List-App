@@ -1,14 +1,38 @@
 # 📝 To-Do List Application
 
-## 📌 Project Overview
-
-The To-Do List Application is a simple task management web application developed using HTML, CSS, and JavaScript. The purpose of this project is to help users manage their daily tasks efficiently. Users can add new tasks, edit existing tasks, delete tasks, and mark tasks as completed.
-
-The application also uses Local Storage, which allows task data to remain available even after refreshing or closing the browser.
+A simple and responsive To-Do List Application built using **HTML, CSS, and JavaScript**. This application helps users manage daily tasks efficiently by allowing them to add, edit, delete, and update task status. Task data is stored using **Browser Local Storage**, ensuring data remains available even after refreshing the page.
 
 ---
 
-# 🚀 Technologies Used
+## 👩‍💻 Developed By
+
+**Dhamanda Diya Hoshiyarsingh**
+
+🔗 GitHub Profile: https://github.com/dev-dhamandadiya
+
+---
+
+## 🚀 Project Repository
+
+🔗 Repository Link:
+https://github.com/dev-dhamandadiya/PR-1-HexSoftwares_To-Do-List-App.git
+
+---
+
+## 🎥 Project Demo Video
+
+📹 Watch Demo:
+https://drive.google.com/file/d/1dlP_7I8EfETHl0z-qCIKrZfhCmkOsEbk/view?usp=sharing
+
+---
+
+## 📸 Project Screenshot
+
+![To Do List App](./list.png)
+
+---
+
+## 🛠️ Technologies Used
 
 * HTML5
 * CSS3
@@ -17,109 +41,99 @@ The application also uses Local Storage, which allows task data to remain availa
 
 ---
 
-# 🎯 Project Objectives
-
-The main objectives of this project are:
+## 🎯 Project Objectives
 
 * Create a simple and user-friendly task manager.
 * Allow users to add tasks.
 * Allow users to edit tasks.
 * Allow users to delete tasks.
 * Allow users to mark tasks as completed.
-* Store task data permanently using browser Local Storage.
-* Improve understanding of DOM Manipulation and JavaScript CRUD Operations.
+* Store task data using Local Storage.
+* Improve understanding of CRUD Operations and DOM Manipulation.
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-### 1. Add Task
+### ✅ Add Task
 
-Users can enter a task in the input field and click the Add Task button.
+Users can add new tasks easily.
 
-### 2. Edit Task
+### ✏️ Edit Task
 
-Users can modify an existing task without deleting it.
+Existing tasks can be modified.
 
-### 3. Delete Task
+### 🗑️ Delete Task
 
-Users can remove unwanted tasks from the list.
+Unwanted tasks can be removed.
 
-### 4. Mark as Complete
+### 🔄 Update Task Status
 
-Users can change the task status from Pending to Completed.
+Users can mark tasks as Completed or Pending.
 
-### 5. Local Storage
+### 💾 Local Storage
 
-Tasks remain saved even after page refresh or browser restart.
+Tasks remain available after page refresh.
 
-### 6. Responsive User Interface
+### 📱 Responsive Design
 
-The application has a clean and simple design that works properly on different screen sizes.
+Clean and user-friendly interface.
 
 ---
 
-# 🏗️ Project Structure
+## 📂 Project Structure
 
+```text
 ToDo-List-App
 │
 ├── index.html
---css
 ├── style.css
---Js
-└── script.js
+├── script.js
+├── list.png
+└── README.md
 ```
 
 ---
 
-GitHub Profile:
-https://github.com/dev-dhamandadiya/PR-1-HexSoftwares_To-Do-List-App.git
-
-## Screenshot
-
-![To Do List App](./Screenshot%202026-06-27%20203125.png)
-
-# 📄 HTML Responsibilities
+## 📄 HTML Responsibilities
 
 HTML is used to create:
 
-* Project Heading
+* Application Structure
 * Input Field
 * Add Task Button
-* Task Display Table
+* Task Table
 * Action Buttons
 
 ---
 
-# 🎨 CSS Responsibilities
+## 🎨 CSS Responsibilities
 
 CSS is used to:
 
-* Design the application layout
-* Add colors and styling
-* Create responsive UI
+* Design the layout
+* Style buttons and table
 * Improve user experience
-* Style buttons and tables
+* Create responsive design
+* Add colors and spacing
 
 ---
 
-# ⚙️ JavaScript Responsibilities
+## ⚙️ JavaScript Responsibilities
 
 JavaScript handles:
 
 * Adding Tasks
 * Editing Tasks
 * Deleting Tasks
-* Marking Tasks as Completed
+* Updating Task Status
 * Displaying Tasks
 * Managing Local Storage
-* Updating the User Interface Dynamically
+* Dynamic DOM Updates
 
 ---
 
-# 💾 Local Storage Implementation
-
-The application uses browser Local Storage to save task data.
+## 💾 Local Storage Implementation
 
 ### Save Data
 
@@ -133,15 +147,15 @@ localStorage.setItem("tasks", JSON.stringify(tasks));
 JSON.parse(localStorage.getItem("tasks")) || [];
 ```
 
-Benefits:
+### Benefits
 
-* Data remains after page refresh.
+* Data remains after refresh.
 * No database required.
-* Fast and simple implementation.
+* Fast and lightweight solution.
 
 ---
 
-# 🔄 CRUD Operations
+## 🔄 CRUD Operations
 
 ### Create
 
@@ -153,7 +167,7 @@ Display all tasks.
 
 ### Update
 
-Edit task details and update task status.
+Edit tasks and update task status.
 
 ### Delete
 
@@ -161,47 +175,44 @@ Remove tasks from the list.
 
 ---
 
-# 📚 JavaScript Methods Used
+## 📚 JavaScript Methods Used
 
 ### map()
 
-Used for updating task information.
+Used to update task information.
 
 ### filter()
 
-Used for deleting tasks.
+Used to delete tasks.
 
 ### find()
 
-Used for locating a specific task for editing.
+Used to locate a specific task.
 
 ### forEach()
 
-Used for displaying tasks on the screen.
+Used to display tasks dynamically.
 
 ---
 
-# 🎓 Learning Outcomes
+## 🎓 Learning Outcomes
 
 Through this project, I learned:
 
 * DOM Manipulation
 * Event Handling
-* JavaScript Functions
-* Array Methods
 * CRUD Operations
 * Local Storage
+* JavaScript Array Methods
 * Dynamic UI Updates
 * Frontend Development Fundamentals
 
 ---
 
-# ✅ Conclusion
+## ✅ Conclusion
 
-The To-Do List Application is a practical and beginner-friendly project that demonstrates core frontend development concepts. It provides users with an efficient way to manage tasks while helping developers understand HTML, CSS, JavaScript, CRUD Operations, and Local Storage implementation.
+The To-Do List Application is a beginner-friendly project that demonstrates the practical use of HTML, CSS, JavaScript, CRUD Operations, and Local Storage. It provides an efficient way to manage daily tasks while strengthening frontend development skills.
 
 ---
 
-👩‍💻 Made By
-
-Dhamanda Diya Hoshiyarsingh
+⭐ If you found this project useful, feel free to star the repository and share your feedback.

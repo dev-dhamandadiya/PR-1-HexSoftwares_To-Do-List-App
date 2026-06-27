@@ -114,5 +114,5 @@ function markComplete(id) {
         JSON.stringify(tasks)
     );
     displayTasks();
-}
+};
 displayTasks();
